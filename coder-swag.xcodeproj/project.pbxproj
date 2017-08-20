@@ -15,6 +15,8 @@
 		044113C31F49BF69005BF898 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044113C21F49BF69005BF898 /* CategoryCell.swift */; };
 		044113C51F49C378005BF898 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044113C41F49C378005BF898 /* Category.swift */; };
 		044113C81F49C57E005BF898 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044113C71F49C57E005BF898 /* DataService.swift */; };
+		044113CA1F49D7FB005BF898 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044113C91F49D7FB005BF898 /* ProductCell.swift */; };
+		044113CC1F49D940005BF898 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044113CB1F49D940005BF898 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		044113C21F49BF69005BF898 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		044113C41F49C378005BF898 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		044113C71F49C57E005BF898 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		044113C91F49D7FB005BF898 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		044113CB1F49D940005BF898 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				044113C41F49C378005BF898 /* Category.swift */,
+				044113CB1F49D940005BF898 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				044113C21F49BF69005BF898 /* CategoryCell.swift */,
+				044113C91F49D7FB005BF898 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				044113B01F49B95D005BF898 /* CategoryVC.swift in Sources */,
 				044113AE1F49B95D005BF898 /* AppDelegate.swift in Sources */,
 				044113C31F49BF69005BF898 /* CategoryCell.swift in Sources */,
+				044113CA1F49D7FB005BF898 /* ProductCell.swift in Sources */,
 				044113C51F49C378005BF898 /* Category.swift in Sources */,
 				044113C81F49C57E005BF898 /* DataService.swift in Sources */,
+				044113CC1F49D940005BF898 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
